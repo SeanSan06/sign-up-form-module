@@ -14,25 +14,29 @@
     <div id="sign-up">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         <form id="form">
-            <div>
-                <label for="first-name">First name</label>
-                <input  name="first-name" placeholder="Name">
-                <label for="email">Email</label>
-                <input  name="email" placeholder="email@domain">
-                <label for="password">Password</label>
-                <input  name="password" placeholder="123ABC">
+            <div id="inputs">
+                <div>
+                    <label for="first-name">First name</label>
+                    <input type="text" pattern="[A-Za-z]+" name="first-name" placeholder="Name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="email@domain">
+                    <label for="password">Password</label>
+                    <input name="password" placeholder="123ABC">
+                </div>
+                <div>
+                    <label for="last-name">Last name</label>
+                    <input type="text" pattern="[A-Za-z]+" name="last-name" placeholder="Name">
+                    <label value="0" for="phone-number">Phone number</label>
+                    <input type="number" min="10" max="13" name="phone-number" placeholder="555-111-2222">
+                    <label for="confirm-password">Confirm password</label>
+                    <input name="confirm-password" placeholder="123ABC">
+                </div>
             </div>
-            <div>
-                <label for="last-name">Last name</label>
-                <input  name="last-name" placeholder="Name">
-                <label for="phone-number">Phone number</label>
-                <input  name="phone-number" placeholder="555-111-2222">
-                <label for="confirm-password">Confirm pass</label>
-                <input  name="confirm-password" placeholder="123ABC">
-            </div>
+
+            <button type="submit">Submit</button>
+            <p>Already have an account? Log in</p>
         </form>
 
-        <button>Sign Up</button>
     </div>
 </body>
 </html>

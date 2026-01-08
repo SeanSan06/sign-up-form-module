@@ -22,12 +22,21 @@ h1 {
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     gap: 16px;
 }
 
-#form div {
+#inputs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
+#inputs div {
     height: 100%;
     width: 100%;
     display: flex;
@@ -37,5 +46,7 @@ h1 {
 }
 
 #sign-up {
+    display: flex;
+    flex-direction: column;
     gap: 16px;
 }
