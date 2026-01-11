@@ -113,12 +113,12 @@ p {
     gap: 16px;
 }
 
-#submit-button {
+#create-account-button {
     width: 225px;
     margin-left: 16px;
 }
 
-#submit-button {
+#create-account-button {
     position: relative;
     border: none;
     background: transparent;
@@ -176,34 +176,34 @@ p {
         cubic-bezier(.3, .7, .4, 1);
 }
 
-#submit-button:hover {
+#create-account-button:hover {
     filter: brightness(110%);
 }
 
-#submit-button:hover .front {
+#create-account-button:hover .front {
     transform: translateY(-6px);
     transition: transform
         250ms
         cubic-bezier(.3, .7, .4, 1.5);
 }
 
-#submit-button:active .front {
+#create-account-button:active .front {
     transform: translateY(-2px);
     transition: transform 34ms;
 }
 
-#submit-button:hover .shadow {
+#create-account-button:hover .shadow {
     transform: translateY(4px);
     transition: transform
         250ms
         cubic-bezier(.3, .7, .4, 1.5);
 }
 
-#submit-button:active .shadow {
+#create-account-button:active .shadow {
     transform: translateY(1px);
     transition: transform 34ms;
 }
 
-#submit-button:focus:not(:focus-visible) {
+#create-account-button:focus:not(:focus-visible) {
     outline: none;
 }
