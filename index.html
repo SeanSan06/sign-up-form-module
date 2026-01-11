@@ -19,23 +19,23 @@
             <div id="inputs">
                 <div>
                     <label for="first-name">First name</label>
-                    <input class="input-field" type="text" pattern="[A-Za-z]+" name="first-name" placeholder="Name">
+                    <input required class="input-field" type="text" pattern="[A-Za-z]+" name="first-name" placeholder="Name">
                     <label for="email">Email</label>
-                    <input class="input-field" type="email" name="email" placeholder="email@domain">
+                    <input required class="input-field" type="email" name="email" placeholder="email@domain">
                     <label for="password">Password</label>
-                    <input class="input-field" name="password" placeholder="123ABC" id="password">
+                    <input required class="input-field" name="password" placeholder="123ABC" id="password">
                 </div>
                 <div>
                     <label for="last-name">Last name</label>
-                    <input class="input-field" type="text" pattern="[A-Za-z]+" name="last-name" placeholder="Name">
+                    <input required class="input-field" type="text" pattern="[A-Za-z]+" name="last-name" placeholder="Name">
                     <label value="0" for="phone-number">Phone number</label>
-                    <input class="input-field" type="number" min="10" max="13" name="phone-number" placeholder="555-111-2222">
+                    <input required class="input-field" type="text" pattern="[0-9]+" minlength="10" maxlength="13" name="phone-number" placeholder="555-111-2222">
                     <label for="confirm-password">Confirm password</label>
-                    <input class="input-field" name="confirm-password" placeholder="123ABC" id="confirmed-password">
+                    <input required class="input-field" name="confirm-password" placeholder="123ABC" id="confirmed-password">
                 </div>
             </div>
 
-            <button id="create-account-button" type="submit" id="create-account">
+            <button id="create-account-button" type="submit">
                 <span class="shadow"></span>
                 <span class="edge"></span>
                 <span class="front text"> Create Account </span>
